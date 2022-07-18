@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Education from './pages/Education';
 import Projects from './pages/Projects';
 import Home from './pages/Home';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <Route path="/education">
         <Education />
       </Route>
+
+      <Footer />
     </div>
   );
 }
