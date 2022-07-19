@@ -24,14 +24,14 @@ function home() {
       </div>
       <button>Lets connect</button>
       
-      <br/>
+      <br/><br/><br/><br/>
 
       <div className='skills'>
         <h1>Skills</h1>
         <li className='languages'>
           <span>HTML, CSS, Bootstrap, JavaScript, JQuery, React.js, Git, Node</span>
         </li>
-
+        <br/><br/><br/><br/><br/><br/><br/><br/>
       </div>
     </div>
   )

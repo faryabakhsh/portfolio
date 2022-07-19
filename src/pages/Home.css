@@ -2,8 +2,8 @@
     width: 100%;
     align-items: center;
     font-family: "calibri";    
-    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
-  }
+    background-image: linear-gradient(to right, #56317a 0%, #3d99be 31%, #56317a 100%);
+}
 
   .about {
     width: 100%;
@@ -20,7 +20,7 @@
   .about h1 {
     font-family: "calibri", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
-    color: #5bc3e9;
+    color: #17092f;
     height: 50px;
   }
 
@@ -39,7 +39,7 @@
   }
   
   .aboutme p {
-    color: #3e497a;
+    color: #ffffff;
     font-size: 23px;
     width: 60%;
     
@@ -95,3 +95,4 @@
         font-size: 20px;
       }
   }
+
