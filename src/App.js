@@ -15,9 +15,9 @@ function App() {
           <Home />
         </Route>
 
-      <Route path="/projects">
+       <Route path="/projects">
         <Projects />
-      </Route>
+      </Route> 
 
       <Route path="/education">
         <Education />

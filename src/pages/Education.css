@@ -1,5 +1,10 @@
 .education {
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-color: black;
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
     font-family: "calibri";
+}
+.education h2 {
+    color: #3d99be;
+    text-align: center;
 }
 

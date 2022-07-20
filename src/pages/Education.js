@@ -7,6 +7,7 @@ import SchoolIcon from '@mui/icons-material/School';
 function Education() {
   return (
     <div className='education'>
+      <h2>My Education History</h2>
       <VerticalTimeline>
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
