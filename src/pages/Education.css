@@ -1,10 +1,13 @@
 .education {
-    background-color: black;
+    background-color: #101318;
     /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
     font-family: "calibri";
 }
+
 .education h2 {
     color: #3d99be;
     text-align: center;
 }
-
+.date {
+    color:aliceblue
+}

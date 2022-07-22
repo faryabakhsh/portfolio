@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Home from './pages/Home';
 import Footer from './components/Footer/Footer';
 
+
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,7 @@ function App() {
       <Route path="/education">
         <Education />
       </Route>
-
+      
       <Footer />
     </div>
   );

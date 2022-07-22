@@ -8,65 +8,70 @@ function Education() {
   return (
     <div className='education'>
       <h2>My Education History</h2>
-      <VerticalTimeline>
+      <VerticalTimeline >
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="2010 - 2014"
+        dateClassName='date'
+        date="2019 - 2023" 
         iconStyle={{ backgroundImage: "linear-gradient(to right, #56317a 0%, #3d99be 31%, #56317a 100%)", color: "#fff" }}
         icon={<SchoolIcon />}
         >
             <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            National University of Science and Technology - NUST
           </h3>
-          <p> High School Diploma</p>
+          <p> BS in Governance and Public Policy</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="2010 - 2014"
+        dateClassName='date'
+        date="2020"
         iconStyle={{ backgroundImage: "linear-gradient(to right, #56317a 0%, #3d99be 31%, #56317a 100%)", color: "#fff" }}
         icon={<SchoolIcon />}
         >
             <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            Exploration Begins
           </h3>
-          <p> High School Diploma</p>
+          <p> I was introduced to tech for the first time, started exploring HTML, CSS and basic Javascript.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="2010 - 2014"
+        dateClassName='date'
+        date="2020-2021"
         iconStyle={{ backgroundImage: "linear-gradient(to right, #56317a 0%, #3d99be 31%, #56317a 100%)", color: "#fff" }}
         icon={<SchoolIcon />}
         >
             <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            Wild - Career Changing Decision
           </h3>
-          <p> High School Diploma</p>
+          <p> enrolled myself into a minor course of web engineering at university, at the same time teaching myself the fundamentals of front-end technologies through online courses of udemy</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="2010 - 2014"
+        dateClassName='date'
+        date="JAN 2022"
         iconStyle={{ backgroundImage: "linear-gradient(to right, #56317a 0%, #3d99be 31%, #56317a 100%)", color: "#fff" }}
         icon={<SchoolIcon />}
         >
             <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            REACT.js
           </h3>
-          <p> High School Diploma</p>
+          <p> Took a professional course from udemy of React - The Complete Guide (incl Hooks, React Router, Redux) - 48 hours long. Made many smaller project along the course and at the end programmed my own personal project in React. </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="2010 - 2014"
+        dateClassName='date'
+        date="AUG 2022"
         iconStyle={{ backgroundImage: "linear-gradient(to right, #56317a 0%, #3d99be 31%, #56317a 100%)", color: "#fff" }}
         icon={<SchoolIcon />}
         >
             <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            Employment at AlfaBolt
           </h3>
-          <p> High School Diploma</p>
+          <p> landed my first part time tech job at Alfabolt. </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
