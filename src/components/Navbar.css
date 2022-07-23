@@ -12,23 +12,46 @@
   
   .links {
     padding: 9px 16px;
-    float: right;
+     float: right; 
     width: 100%;
     height: 80%;
     display: flex;
-    text-align: center;
-    align-items: right;
-   justify-content: right ;  
+   
+     align-items: center;     /*vertical axis */
+   justify-content: right ;    /* horizaontal space */
     color: white;
     /* margin-right:0%; */
+  }
+
+  .name {
+   float: left;
+   text-align: left ;
+   
   }
   
   .navbar a {
     color: white;
     text-decoration: none;
+    display: block;
     margin: 20px;
     font-size: 20px;
   }
+
+  .navbar a:hover {
+    color: rgb(215, 29, 215)
+  }
+
+  .button {
+   background-color: #383538;
+    padding: 0.5rem;
+    border-radius: 5px;
+    
+  }
+
+  .button a:hover {
+    color: aqua;
+  }
+  
   
   .toggleButton {
     width: 100%;

@@ -6,7 +6,7 @@ function home() {
   return (
     <div className="home">
       <div className="about">
-        <h1> Hi, I'm Farya Bakhsh</h1>
+        <h2> Hi, I'm <span>Farya Bakhsh</span></h2>
         <div className="prompt">
           <p>
             A passionate web developer with a keen interest in front-end
@@ -15,6 +15,8 @@ function home() {
             who loves bringing ideas to life through coding, design, and
             accessibility.
           </p>
+          
+          {/* <div className="resume"><p>Download my <a href = "">resume</a></p></div> */}
         </div>
       </div>
 
@@ -49,9 +51,15 @@ function home() {
 
       <div className="skills">
         <h1>Skills</h1>
+
+        <ul>
         <li className="languages">
+          
           HTML, CSS, Bootstrap, JavaScript, JQuery, React.js, Git, Node
+          
         </li>
+
+        </ul>
         <br />
         <br />
         
