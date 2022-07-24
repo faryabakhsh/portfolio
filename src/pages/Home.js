@@ -155,8 +155,8 @@ function home() {
                 the riders’ careers from the app. There is also a backend made
                 from firebase. Working on different components to make a
                 user-interactive interface. Added functionality using states,
-                props, portal, and refs. See the project
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/">
+                props, portal, and refs. See the project code
+                <a href="https://github.com/faryabakhsh/React_food-delivery" target="_blank">
                   {" "}
                   here
                 </a>
@@ -168,7 +168,7 @@ function home() {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>SVG</li>
-
+<li>Material UI</li>
                 <li>React.js</li>
                 <li>Redux</li>
                 <li>Firebase</li>
@@ -188,7 +188,7 @@ function home() {
                 server – express through HTTP request that sends a JSON
                 response. Routing was added that enables Single Page
                 applications with multiple views. See the project code
-                <a href="https://frontendmasters.github.io/bootcamp/mole">
+                <a href="https://github.com/faryabakhsh/angular_ecommerce_app" target="_blank">
                   {" "}
                   here
                 </a>
@@ -211,21 +211,22 @@ function home() {
           <article>
             <div className="text">
               {/* <h4>Photography Project</h4> */}
-              <h3>Wall of Wonder Collection</h3>
+              <h3>News Portal</h3>
               <p className="blackbox">
                 Generated an React Service for the News API and used it
                 dynamically to populate the different sections of the news
                 portal. Data binding was used to dynamically bind article data
-                received as a JSON object to the News Article component views. A
-                link looks like
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/grid-figure-figcaption">
-                  here
+                received as a JSON object to the News Article component views. See the project code
+                <a href="https://github.com/faryabakhsh/angular_newsportal" target="_blank"> here
                 </a>
               </p>
               <h5>Technologies used include:</h5>
               <ul>
                 <li>HTML</li>
                 <li>CSS Grid</li>
+                <li>Bootstrap</li>
+                <li>React.js</li>
+                <li>API's</li>
               </ul>
             </div>
             <img
