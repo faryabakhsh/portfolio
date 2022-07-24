@@ -22,9 +22,9 @@ function Navbar() {
           <ReorderIcon />
         </button>
       </div>
-      {/* <h1><a href="">Farya Bakhsh</a></h1> */}
+       {/* <h1 className="h1"><a href="">Farya Bakhsh</a></h1>  */}
       <div className="links">
-        <Link to="" className="name">Farya Bakhsh</Link>
+         <Link to="/" className="name">Home</Link> 
         <Link to="/projects">About</Link>
         <Link to="/education">Education</Link>
         <Link to="/">Contact</Link>

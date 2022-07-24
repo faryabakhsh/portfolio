@@ -8,7 +8,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 function Footer() {
   return (
     <div className="footer">
-      {/* <p> &copy; 2022 Farya Bakhsh</p> */}
+       <p> &copy; 2022 Farya Bakhsh</p> 
       <div className="socialMedia">
         <a href="https://github.com/faryabakhsh" target="_blank">
           <GitHubIcon />

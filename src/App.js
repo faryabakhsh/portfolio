@@ -2,7 +2,7 @@ import {Route} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Education from './pages/Education';
-import Projects from './pages/Projects';
+import About from './pages/About';
 import Home from './pages/Home';
 import Footer from './components/Footer/Footer';
 
@@ -16,8 +16,8 @@ function App() {
           <Home />
         </Route>
 
-       <Route path="/projects">
-        <Projects />
+       <Route path="/about">
+        <About />
       </Route> 
 
       <Route path="/education">

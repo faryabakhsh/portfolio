@@ -4,7 +4,7 @@
     height: 80px;
     background: #171c23;
     display: flex;
-     justify-content: right; 
+     /* justify-content: right;  */
       align-items: center; 
     flex-direction: row;
     padding-top: 10px;
@@ -21,7 +21,7 @@
    
     text-align: center;
     align-items: right;
-   justify-content: right ;  
+   justify-content: flex-end ;  
    
       padding-right: 10px;
    margin: 10px;
@@ -39,6 +39,7 @@
   .footer p {
     color: white;
     text-align: center;
+    justify-content: flex-start;
     
   }
   
