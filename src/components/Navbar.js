@@ -25,9 +25,9 @@ function Navbar() {
        {/* <h1 className="h1"><a href="">Farya Bakhsh</a></h1>  */}
       <div className="links">
          <Link to="/" className="name">Home</Link> 
-        <Link to="/projects">About</Link>
+        <Link to="/about">About</Link>
         <Link to="/education">Education</Link>
-        <Link to="/">Contact</Link>
+        <Link to="/contact">Contact</Link>
         <Link className="button">Resume</Link>
       </div>
       

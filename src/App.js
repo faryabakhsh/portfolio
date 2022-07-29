@@ -5,6 +5,7 @@ import Education from './pages/Education';
 import About from './pages/About';
 import Home from './pages/Home';
 import Footer from './components/Footer/Footer';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -24,6 +25,13 @@ function App() {
         <Education />
       </Route>
       
+      
+      <Route path="/contact">
+        <Contact />
+      </Route>
+      
+      
+
       <Footer />
     </div>
   );

@@ -8,8 +8,9 @@ function home() {
         <div className="about">
           <h2>
             {" "}
-            Hi, I'm <span>Farya Bakhsh</span>
+            <span>Farya Bakhsh</span>
           </h2>
+          <br />
           <div className="prompt">
             <p>
               A passionate web developer with a keen interest in front-end
@@ -146,7 +147,7 @@ function home() {
           <article>
             <div className="text">
               {/* <h4>Latest Project</h4> */}
-              <h3>Food Delivery App</h3>
+              <h3>Food Delivery App (ongoing)</h3>
 
               <p className="blackbox">
                 Frontend made from react.js and redux in which customer can
@@ -156,7 +157,10 @@ function home() {
                 from firebase. Working on different components to make a
                 user-interactive interface. Added functionality using states,
                 props, portal, and refs. See the project code
-                <a href="https://github.com/faryabakhsh/React_food-delivery" target="_blank">
+                <a
+                  href="https://github.com/faryabakhsh/React_food-delivery"
+                  target="_blank"
+                >
                   {" "}
                   here
                 </a>
@@ -168,7 +172,7 @@ function home() {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>SVG</li>
-<li>Material UI</li>
+                <li>Material UI</li>
                 <li>React.js</li>
                 <li>Redux</li>
                 <li>Firebase</li>
@@ -188,7 +192,10 @@ function home() {
                 server – express through HTTP request that sends a JSON
                 response. Routing was added that enables Single Page
                 applications with multiple views. See the project code
-                <a href="https://github.com/faryabakhsh/angular_ecommerce_app" target="_blank">
+                <a
+                  href="https://github.com/faryabakhsh/angular_ecommerce_app"
+                  target="_blank"
+                >
                   {" "}
                   here
                 </a>
@@ -216,8 +223,14 @@ function home() {
                 Generated an React Service for the News API and used it
                 dynamically to populate the different sections of the news
                 portal. Data binding was used to dynamically bind article data
-                received as a JSON object to the News Article component views. See the project code
-                <a href="https://github.com/faryabakhsh/angular_newsportal" target="_blank"> here
+                received as a JSON object to the News Article component views.
+                See the project code
+                <a
+                  href="https://github.com/faryabakhsh/angular_newsportal"
+                  target="_blank"
+                >
+                  {" "}
+                  here
                 </a>
               </p>
               <h5>Technologies used include:</h5>
