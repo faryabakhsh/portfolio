@@ -7,7 +7,7 @@ function Contact() {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm()
+        emailjs.sendForm("service_k6mw6ur", "template_qn6my0p", e.target, "iDX8dmLxhtHzH6ppM").then(res=>{console.log(res)}).catch(err=>console.log(err));
     }
   return (
     <div className='contact'>

@@ -6,6 +6,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Footer from './components/Footer/Footer';
 import Contact from './pages/Contact';
+import React from 'react';
 
 
 function App() {

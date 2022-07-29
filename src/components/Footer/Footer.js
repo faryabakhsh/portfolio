@@ -10,17 +10,17 @@ function Footer() {
     <div className="footer">
        <p> &copy; 2022 Farya Bakhsh</p> 
       <div className="socialMedia">
-        <a href="https://github.com/faryabakhsh" target="_blank">
+        <a href="https://github.com/faryabakhsh" target="_blank" rel="noopener noreferrer">
           <GitHubIcon />
         </a>
-        <a href="https://www.linkedin.com/in/faryabakhsh7/" target="_blank">
+        <a href="https://www.linkedin.com/in/faryabakhsh7/" target="_blank" rel="noopener noreferrer">
           <LinkedInIcon />
         </a>
 
-        <a href="https://twitter.com/BakhshFarya" target="_blank">
+        <a href="https://twitter.com/BakhshFarya" target="_blank" rel="noopener noreferrer">
           <TwitterIcon />
         </a>
-        <a href="https://www.instagram.com/" target="_blank">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
           <InstagramIcon />
         </a>
       </div>

@@ -159,7 +159,7 @@ function home() {
                 props, portal, and refs. See the project code
                 <a
                   href="https://github.com/faryabakhsh/React_food-delivery"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   {" "}
                   here
@@ -194,7 +194,7 @@ function home() {
                 applications with multiple views. See the project code
                 <a
                   href="https://github.com/faryabakhsh/angular_ecommerce_app"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   {" "}
                   here
@@ -227,7 +227,7 @@ function home() {
                 See the project code
                 <a
                   href="https://github.com/faryabakhsh/angular_newsportal"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   {" "}
                   here
