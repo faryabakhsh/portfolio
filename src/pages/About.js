@@ -17,10 +17,10 @@ function about() {
                 establish myself as a professional developer.
                 <br />
                 <br />
-                As an active member of #Udemy and #FrontendMaster community, I
-                completed frontend development path. Moreover, to hone my skills
-                further, I am taking Minor Courses of Computer Science from the
-                university I am currently studying. <br />
+                As an active member of Udemy community, I completed frontend
+                development path. Moreover, to hone my skills further, I am
+                taking Minor Courses of Computer Science at the university I am
+                currently studying. <br />
                 <br />I am a passionate front-end developer that focuses on
                 writing idiomatic, scalable and accessible code while
                 prioritizing teamwork and collaboration with others as a part of

@@ -163,7 +163,7 @@ function home() {
 
       <div className="section-black">
         <section className="projects">
-          <h2>Projects I'm proud of</h2>
+          <h2>Projects I'm proud of :</h2>
           <article>
             <div className="text">
               {/* <h4>Latest Project</h4> */}
