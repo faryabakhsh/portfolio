@@ -1,5 +1,5 @@
 import React from "react";
-import imgfarya from '../images/farya.jpeg';
+import imgfarya from "../images/farya.jpeg";
 import "./Home.css";
 
 function about() {
@@ -21,11 +21,10 @@ function about() {
                 completed frontend development path. Moreover, to hone my skills
                 further, I am taking Minor Courses of Computer Science from the
                 university I am currently studying. <br />
-                <br />
-                I am a passionate front-end developer that focuses on writing
-                idiomatic, scalable and accessible code while prioritizing
-                teamwork and collaboration with others as a part of my workflow.{" "}
-                <br /> <br />
+                <br />I am a passionate front-end developer that focuses on
+                writing idiomatic, scalable and accessible code while
+                prioritizing teamwork and collaboration with others as a part of
+                my workflow. <br /> <br />
                 When I am not coding, I'm spending time with my family. I am a
                 huge fan of John Green's writings, so there is a good chance
                 either I am reading one of his pieces or chatting about his work
@@ -33,16 +32,15 @@ function about() {
               </p>
               <h4>My favorite technologies include:</h4>
               <ul>
+                <li>Next.js</li>
                 <li>React.js</li>
-                <li>UI/UX</li>
+                <li>Storybook</li>
+
                 <li>Node.js</li>
                 <li>Express</li>
               </ul>
             </div>
-            <img
-              src={imgfarya}
-              alt="farya bakhsh at Pexels."
-            />
+            <img src={imgfarya} alt="farya bakhsh at Pexels." />
           </article>
         </section>
       </div>

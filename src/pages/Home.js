@@ -121,7 +121,7 @@ function home() {
               <p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-brand-github"
+                  class="icon icon-tabler icon-tabler-brand-storybook"
                   width="52"
                   height="52"
                   viewBox="0 0 24 24"
@@ -131,8 +131,28 @@ function home() {
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M5 4l.5 16.5l13.5 .5v-18z"></path>
+                  <path d="M9 15c.6 1.5 1.639 2 3.283 2h-.283c1.8 0 3 -.974 3 -2.435c0 -1.194 -.831 -1.799 -2.147 -2.333l-1.975 -.802c-1.15 -.467 -1.878 -1.422 -1.878 -2.467c0 -.97 .899 -1.786 2.087 -1.893l.613 -.055c1.528 -.138 2.999 .762 3.3 1.985"></path>
+                  <path d="M16 3.5v1"></path>
+                </svg>
+              </p>
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-nextjs"
+                  width="52"
+                  height="52"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#000000"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993"></path>
+                  <path d="M15 12v-3"></path>
                 </svg>
               </p>
             </div>
@@ -159,7 +179,8 @@ function home() {
                 props, portal, and refs. See the project code
                 <a
                   href="https://github.com/faryabakhsh/React_food-delivery"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {" "}
                   here
@@ -194,7 +215,8 @@ function home() {
                 applications with multiple views. See the project code
                 <a
                   href="https://github.com/faryabakhsh/angular_ecommerce_app"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {" "}
                   here
@@ -227,7 +249,8 @@ function home() {
                 See the project code
                 <a
                   href="https://github.com/faryabakhsh/angular_newsportal"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {" "}
                   here
