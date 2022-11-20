@@ -21,23 +21,23 @@ function Contact() {
   return (
     <div className="contact">
       <div className="container">
-        <h1 className="heading1">Lets Connect</h1>
+        <h1 className="heading1">Let's Connect</h1>
         <form onSubmit={sendEmail}>
           <label className="label">Name</label>
           <br />
-          <input className="input" type="text" name="name" />
+          <input className="input" type="text" name="name" required />
           <br />
           <label className="label">Email</label>
           <br />
-          <input className="input" type="email" name="user_email" />
+          <input className="input" type="email" name="user_email" required />
           <br />
 
           <label className="label">Message</label>
           <br />
-          <textarea className="input" name="message" />
+          <textarea className="message" name="message" required />
 
           <br />
-          <input className="button" type="submit" value="send" />
+          <input className="contactbutton" type="submit" value="send" />
         </form>
       </div>
     </div>

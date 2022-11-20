@@ -66,9 +66,9 @@ function Education() {
           </h3>
           <p>
             {" "}
-            enrolled myself into a minor course of web engineering at
+            Enrolled myself into a minor course in web engineering at
             university, at the same time teaching myself the fundamentals of
-            front-end technologies through online courses of udemy
+            front-end technologies through online courses from udemy.
           </p>
         </VerticalTimelineElement>
 
@@ -83,13 +83,14 @@ function Education() {
           }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">REACT.js</h3>
+          <h3 className="vertical-timeline-element-title">
+            Built Personal Projects
+          </h3>
           <p>
             {" "}
-            Took a professional course from udemy of React - The Complete Guide
-            (incl Hooks, React Router, Redux) - 48 hours long. Made many smaller
-            project along the course and at the end programmed my own personal
-            project in React.{" "}
+            Statrted buliding inspired projects in React.js. This made my dive
+            deep into web development as I was exposed to many new libraries and
+            their implementation.
           </p>
         </VerticalTimelineElement>
 
@@ -107,7 +108,7 @@ function Education() {
           <h3 className="vertical-timeline-element-title">
             Employment at AlfaBolt
           </h3>
-          <p> landed my first part time tech job at Alfabolt. </p>
+          <p> Landed my first part-time tech job at Alfabolt. </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
