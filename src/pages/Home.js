@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import netflix from "../images/netflix.png";
 
 function home() {
   return (
@@ -167,18 +168,14 @@ function home() {
           <article>
             <div className="text">
               {/* <h4>Latest Project</h4> */}
-              <h3>Food Delivery App (ongoing)</h3>
+              <h3>Netflix Clone</h3>
 
               <p className="blackbox">
-                Frontend made from react.js and redux in which customer can
-                place an order to a registered restaurant, he can also track the
-                rider. Restaurants can be registered, and riders can apply for
-                the riders’ careers from the app. There is also a backend made
-                from firebase. Working on different components to make a
-                user-interactive interface. Added functionality using states,
-                props, portal, and refs. See the project code
+                Full Stack Enterprise level Next JS application. Includes
+                passwordless login authentication, Hasura Database, GraphQL &
+                Youtube API. See the project code
                 <a
-                  href="https://github.com/faryabakhsh/React_food-delivery"
+                  href="https://github.com/faryabakhsh/Netflix"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -190,23 +187,21 @@ function home() {
               </p>
               <h5>Technologies used include:</h5>
               <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SVG</li>
-                <li>Material UI</li>
+                {/* <li>HTML</li>
+                <li>CSS</li> */}
                 <li>React.js</li>
-                <li>Redux</li>
-                <li>Firebase</li>
+                <li>Next.js</li>
+                <li>Magic Link</li>
+                <li>Hasura Database</li>
+                <li>GraphQL</li>
+                <li>Youtube API</li>
               </ul>
             </div>
-            <img
-              src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
-              alt="Screenshot of food delivery app ui."
-            />
+            <img src={netflix} alt="Screenshot netflix app." />
           </article>
-          <article className="reverse">
+          {/* <article className="reverse">
             <div className="text">
-              {/* <h4>Bootcamp Project</h4> */}
+              
               <h3>Ecommerce Web App</h3>
               <p className="blackbox">
                 An app designed in angular that retrieves data from the backend
@@ -236,10 +231,10 @@ function home() {
               src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-5.png"
               alt="Screenshot of the ecommerce web app."
             />
-          </article>
-          <article>
+          </article> */}
+          {/* <article>
             <div className="text">
-              {/* <h4>Photography Project</h4> */}
+              
               <h3>News Portal</h3>
               <p className="blackbox">
                 Generated an React Service for the News API and used it
@@ -269,7 +264,7 @@ function home() {
               src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-4.png"
               alt="Screenshot of the Wall of Wonder Collections."
             />
-          </article>
+          </article> */}
         </section>
       </div>
 
