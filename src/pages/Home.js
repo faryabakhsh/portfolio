@@ -4,7 +4,7 @@ import netflix from "../images/netflix.png";
 
 function home() {
   return (
-    <div>
+    <div className="layout">
       <div className="home">
         <div className="about">
           <h2>
@@ -164,7 +164,7 @@ function home() {
 
       <div className="section-black">
         <section className="projects">
-          <h2>Projects I'm proud of :</h2>
+          <h2>Project I'm proud of :</h2>
           <article>
             <div className="text">
               {/* <h4>Latest Project</h4> */}

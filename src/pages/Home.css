@@ -1,3 +1,11 @@
+.layout {
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.layout::-webkit-scrollbar {
+  display: none;
+}
 .home {
   padding: 0;
   margin: 0;
@@ -5,6 +13,7 @@
   /* align-items: center; */
   font-family: "calibri";
   /* background-image: linear-gradient(to right, #56317a 0%, #3d99be 31%, #56317a 100%); */
+  overflow: hidden;
 }
 
 .about {
