@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import netflix from "../images/netflix.png";
+import alfabolt from "../images/alfabolt.png";
 
 function home() {
   return (
@@ -160,6 +161,126 @@ function home() {
             {/* <div className="resume"><p>Download my <a href = "">resume</a></p></div> */}
           </div>
         </div>
+      </div>
+
+      <div className="section-black">
+        <section className="projects">
+          <h2>My Current Job:</h2>
+          <article>
+            <div className="text">
+              {/* <h4>Latest Project</h4> */}
+              <h3>Software Developer at Alfabolt </h3>
+
+              <p className="blackbox">
+                <li>
+                  While working I focus on writing idiomatic, scalable, and
+                  accessible code{" "}
+                </li>{" "}
+                <li>
+                  I always prioritize teamwork and collaboration with others as
+                  a part of my workflow
+                </li>{" "}
+                <li> Built a custom design system with storybook </li>{" "}
+                <li>
+                  {" "}
+                  Have developed various frontend web pages through Figma
+                  designs{" "}
+                </li>{" "}
+                <li>
+                  {" "}
+                  I develop new features to an existing application while fixing
+                  bugs and improve code quality.{" "}
+                </li>
+                {/* <a
+                  href="https://github.com/faryabakhsh/Netflix"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  here
+                </a> */}
+                {/* , and multiple links look <a href="#">like this</a> and
+                <a href="#">like this</a>. */}
+              </p>
+              <h5>Technologies that I use include:</h5>
+              <ul>
+                {/* <li>HTML</li>
+                <li>CSS</li> */}
+                <li>Typescript</li>
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>Storybook</li>
+              </ul>
+            </div>
+            <img src={alfabolt} alt="Screenshot alfabolt." />
+          </article>
+          {/* <article className="reverse">
+            <div className="text">
+              
+              <h3>Ecommerce Web App</h3>
+              <p className="blackbox">
+                An app designed in angular that retrieves data from the backend
+                server – express through HTTP request that sends a JSON
+                response. Routing was added that enables Single Page
+                applications with multiple views. See the project code
+                <a
+                  href="https://github.com/faryabakhsh/angular_ecommerce_app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  here
+                </a>
+              </p>
+              <h5>Technologies used include:</h5>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+
+                <li>Angular.js</li>
+                <li>Express</li>
+              </ul>
+            </div>
+            <img
+              src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-5.png"
+              alt="Screenshot of the ecommerce web app."
+            />
+          </article> */}
+          {/* <article>
+            <div className="text">
+              
+              <h3>News Portal</h3>
+              <p className="blackbox">
+                Generated an React Service for the News API and used it
+                dynamically to populate the different sections of the news
+                portal. Data binding was used to dynamically bind article data
+                received as a JSON object to the News Article component views.
+                See the project code
+                <a
+                  href="https://github.com/faryabakhsh/angular_newsportal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  here
+                </a>
+              </p>
+              <h5>Technologies used include:</h5>
+              <ul>
+                <li>HTML</li>
+                <li>CSS Grid</li>
+                <li>Bootstrap</li>
+                <li>React.js</li>
+                <li>API's</li>
+              </ul>
+            </div>
+            <img
+              src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-4.png"
+              alt="Screenshot of the Wall of Wonder Collections."
+            />
+          </article> */}
+        </section>
       </div>
 
       <div className="section-black">

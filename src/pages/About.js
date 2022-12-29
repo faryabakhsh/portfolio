@@ -32,6 +32,7 @@ function about() {
               </p>
               <h4>My favorite technologies include:</h4>
               <ul>
+                <li>Typescript</li>
                 <li>Next.js</li>
                 <li>React.js</li>
                 <li>Storybook</li>
