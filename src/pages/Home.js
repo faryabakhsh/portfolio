@@ -294,14 +294,21 @@ function home() {
               <p className="blackbox">
                 Full Stack Enterprise level Next JS application. Includes
                 passwordless login authentication, Hasura Database, GraphQL &
-                Youtube API. See the project code
+                Youtube API. See the project: <br />
+                <a
+                  href="https://netflix7-8f9xozqmw-faryabakhsh.vercel.app/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://netflix7-8f9xozqmw-faryabakhsh.vercel.app/login
+                </a>
+                <br />
                 <a
                   href="https://github.com/faryabakhsh/Netflix"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  here
+                  https://github.com/faryabakhsh/Netflix
                 </a>
                 {/* , and multiple links look <a href="#">like this</a> and
                 <a href="#">like this</a>. */}
